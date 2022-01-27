@@ -8,4 +8,7 @@ foreach var of varlist dist* {
     egen mean_`var' = mean(`var'), by(iso_o)
 }
 
+regress distw dist
+twoway (scatter distw dist)
+
 save "data/derived/mean_distances.dta", replace
