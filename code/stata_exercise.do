@@ -1,4 +1,4 @@
-cd "/Users/koren/Documents/workspace/dc-economics"
+* run this script from the root of the dc-economics-v2.1 folder
 use "data/raw/cepii/dist_cepii.dta", clear
 
 replace dist = dist * 0.621371
