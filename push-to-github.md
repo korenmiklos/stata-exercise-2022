@@ -9,4 +9,6 @@ Once you click *Create repository*, you will see a set of commands to copy to yo
 1. connect your repo to GitHub
 2. push the changes you have made locally
 
+![](commands-to-copy.png)
+
 After this, git already knows about the server, so you can use `git pull` and `git push` as usual.
